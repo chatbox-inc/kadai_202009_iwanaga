@@ -52,7 +52,7 @@
 
 
               
-            </a>
+            
             <p class="post-meta">長野県長野市権堂町にある、<br>
                   フルーツとパンでサンチ（産地）を味わえるお店。 <br>
                   
@@ -166,7 +166,7 @@
             <div class="info">
             <h2>Information</h2>
             <p>店舗情報</p>
-            </p></div>
+            </div>
             <img src="gaikan.jpg" width="100%">
             
             <p>営業時間</p>
@@ -736,12 +736,6 @@ div.event03 {
     overflow-x: scroll;
 }
 }
-
-div .info img
-{
-  
-}
-
 
 div .sns
 {
