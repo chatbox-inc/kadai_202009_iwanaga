@@ -149,10 +149,12 @@
 
       <ul class="event1">
             
+            <div class="eventflex">
             <div class="eventimage"> </div>
+            <div class=eventp>
             <h2>Event</h2>
             <p>イベント</p>
-            <p class=meta>サンドイッチの作り方教室や試食会など、様々なイベントを企画しています。お楽しみに。</p>
+            <p class=meta>サンドイッチの作り方教室や試食会など、様々なイベントを企画しています。<br>お楽しみに。</p></div></div>
             
         <div class=event>
 
@@ -164,7 +166,7 @@
 
           <div class=event03>
           <img src="event01.jpg" width="300px">
-          <p>MY IDEA SANCH 2020<br>　～あなたが食べたい夢のサンドイッチを<br>教えてください～　結果発表！！</p></div>
+          <p>MY IDEA SANCH 2020<br>　～あなたが食べたい夢のサンドイッチを<br>教えてください～　結果発表！！</p></div><br><br>
 
         </div>
 
@@ -787,9 +789,14 @@ padding: 0 5vw;
 
 @media screen and (max-width: 600px){
 .event{white-space: nowrap;
-    display: block;
+       display: block;
+       overflow-x: scroll
+
 }
 }
+
+
+
 
 
 .event02 img{
@@ -1044,10 +1051,17 @@ width: 100%
 
 
 
+.eventflex
+{
+display: flex;  
+margin-bottom: 80px;
+}
 
-
-
-
+@media(max-width:900px){
+ .eventflex{
+   flex-direction: column;
+  }
+}
 
 
 
