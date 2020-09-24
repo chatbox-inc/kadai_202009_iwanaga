@@ -19,10 +19,10 @@
     <!-- Main Content -->
     
     
-        
+          <div class="container">
           <div class="text">
-          <h1>日本でいちばん美味しい
-サンドイッチを目指して。</h1>
+          <h1>日本でいちばん美味しい<br>
+サンドイッチを目指して。</h1><br>
           <p>私たちサンチは、丁寧に作り込んだ耳まで柔らかいパンと、信州の恵みを一身に受けたフルーツを使った、 地産地消にこだわるサンドイッチを作り続けています。</p>
 
 <p>目指すは〈日本でいちばん美味しいサンドイッチ〉。 お客様から「いちばんだね」と言ってもらうために、驚きと発見のあるサンドイッチを心掛けています。</p>
@@ -31,18 +31,18 @@
 
 <p>もう一口。もう一口。最後の一口。
 
-驚き、楽しみ、感激、笑顔を生むことができるサンドイッチが、サンチにはあります。</p>
+驚き、楽しみ、感激、笑顔を生むことができるサンドイッチが、サンチにはあります。</p></div>
           
           </div>
         <div class="flex1">
-        <img src="img1.jpg" width="100%">
+        <div class="fleximage"><img src="img1.jpg" width="100%"> </div>
         <h1>サンドイッチが<br>街に人の流れを生む。</h1>
        </div>
 
        <div class="container">
          <div class="flex2">
-         <img src="img4.jpg" width="200px">
-         <p>毎日食べても飽きない、誰からも愛されるサンドイッチが街にあること。 それが街づくりにつながると私たちは考えています。<br>
+         <div classs="sandimage"><img src="img4.jpg"></div>
+         <p>毎日食べても飽きない、誰からも愛されるサンドイッチが街にあること。 それが街づくりにつながると私たちは考えています。<br><br>
         サンドイッチは、人の流れを作ります。
 美味しいサンドイッチを求めて街にさまざまな世代の人が集まれば、 それだけで活気に溢れます。</p>
         </div>
@@ -52,28 +52,32 @@
            <p>そしてサンドイッチは、コミュニケーションを生み出します。 「美味しいね」「すごいね」「楽しいね」と言い合える文化を、 サンチのサンドイッチが実現し、豊かさと多幸感に溢れた街を作りたいと思っています。<br>
 
 サンドイッチが街にもたらすポジティブな影響を信じて、 私たちはサンチというブランドが、街の誇りとなるよう「美味しいサンドイッチ」を作り続けます。</p>
-<img src="img3.jpg" width="200px">
+<div class="sandimage"><img src="img3.jpg" width="200px"></div>
 
           </div>
 
          </div>
 
           <div class="flex4">
-          <h2>シーンを広げるサンドイッチを。</h2>
-          <img src="img2.jpg" width="500px">
+          
+          <div class="fleximage"><img src="img2.jpg"></div>
+          <h2>シーンを広げる<br>サンドイッチを。</h2>
+          
+          
           </div>
 
         <div class="container">
           <div class="flex5">
-          <p>いつでもどこでも楽しめるのがサンドイッチです。 それはお客様のシーンを広げることにもなります。<br>
+          <p>いつでもどこでも楽しめるのがサンドイッチです。 それはお客様のシーンを広げることにもなります。<br><br>
 
 お気に入りの公園でかじりついても、家でゆっくり頬張っても、 パーティでワイワイつまんでもいい、 場所を選ばない自由がサンドイッチにはあります。</p>
-<img src="img5.jpg" width="200px">
+<div class="sandimage">
+<img src="img5.jpg" width="200px"></div>
 
           </div>
 
           <div class="flex6">
-          <img src="img6.jpg" width="200px">
+          <div class="sandimage"><img src="img6.jpg" width="200px"></div>
           <p>そしてもうひとつ、時間の自由も。<br>
 
 目覚めを幸せにする朝食としてのサンドイッチもあれば、 午後の活力になるランチのサンドイッチ、 夜の空腹を満たすサンドイッチもあります。<br>
@@ -157,95 +161,202 @@
 
    }
 
-  div .flex1
+  .flex1
   {
     display: flex;
-    flex-wrap: wrap;
     
+    align-items: center;
+    justify-content: space-between;
   }
+
+  @media(max-width: 900px){
+.flex1{
+  margin: 0 0 3em;
+  flex-wrap: wrap;
+}}
+
 
 .flex1 img
 {
-max-width:100%;
+
+max-width: 100%;
+height: auto;
 
 }
+
+
+@media screen and (max-width: 900px){
+.flex1 img{
+width: 95%;
+}
+}
+
+
+
+
+
+
 
 .flex1 h1 
 {
-  font-size: 1.5rem;
-  padding-bottom: 0;
+  
   width: 100%;
   line-height: 150%;
   font-weight: bold;
+}
+
+@media(max-width: 900px){
+.flex1 h1{
+font-size: 1.5rem;
+  padding-bottom: 0;
+}}
+
+.flex2 img
+{
+  width: 60%;
+  margin-bottom: 2em;
   
-
 }
-
-.mx-auto{
-  margin: 0
-}
-
 
 .flex2
 {
-  display: flex;
+   display: flex;
    justify-content: space-between;
-   
+   align-items: center;
+}
 
-   
+.flex2 img
+{
+ max-width: 100%;
+ height: auto;
+ border: 0;
+line-height: 0;
+vertical-align: bottom;
 
 }
+
+
+
 
  .flex2 p
  {
    
-   line-height: 200%;
+   line-height: 220%;
+   margin-bottom: 2rem;
+   width: 75%;
+   padding: 20;
+   padding: 0 10%;
+    
+    
+
  }
 
- .flex2 img 
- {
-   margin-right: 40px;
-   
- }
+@media(max-width: 600px){
+.flex2 p{
+ width: 65%;
+ padding: 0;
+}
+}
+
+
 
 
 .flex3
 {
   display: flex; 
   justify-content: space-between;
+  align-items: center;
 }
 
 
 .flex3 p
 {
-  margin-right: 40px;
-  line-height: 200%;
+   line-height: 220%;
+   margin-bottom: 2rem;
+   width: 75%;
+   padding: 20;
+   padding: 0 10%;
 }
 
 .flex4
 {
-  display: flex; 
+  
   justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 5em 0;
+  align-items: center;
+   
 }
 
-.flex4 p
+
+@media(max-width: 900px){
+.flex4{
+margin: 0 0 3em;
+display: flex; 
+}}
+
+
+@media screen and (min-width: 900px){
+.flex4 img{
+    width: 60%;
+    
+}
+}
+
+
+.flex4 h2
 {
-margin-right: 40px;
-  line-height: 200%;
+   font-weight: bold;
+   line-height: 150%;
+   margin-left: 5%;
+   padding-right: 5%;
+   
 }
 
 
 
-.flex5
+.flex4 img 
 {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  line-height: 0;
+  vertical-align: bottom;
+}
+
+@media(max-width: 900px){
+  .flex4 h2{
+    font-size: 1.5rem;
+    padding-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width: 900px){
+.flex5{
+  display: flex;
+  justify-content: space-between;
+}}
+
+.flex5 p
+{
+   line-height: 220%;
+   width: 75%
+   
+}
+
+
+.flex5 {
   display: flex;
   justify-content: space-between;
 }
 
-.flex5 p
-{
-  line-height: 200%;
-}
 
 .flex5 img
 {margin-left: 40px;}
@@ -259,7 +370,11 @@ margin-right: 40px;
 
 .flex6 p
 {
-  line-height: 200%;
+   line-height: 220%;
+   margin-bottom: 2rem;
+   width: 75%;
+   padding: 20;
+   padding: 0 10%;
   
   
 }
@@ -288,10 +403,14 @@ margin-right: 40px;
   margin-bottom: 20px;
 }
 
-.flex2
-{
-  margin-bottom: 20px;
+
+
+@media(max-width: 600px){
+  .flex2{
+    align-items: flex-start;
+  }
 }
+
 
 .flex3 
 {
@@ -300,8 +419,42 @@ margin-right: 40px;
 
 .flex4 
 {
-  margin-bottom: 20px;
+
+  margin: 0;
+  display: flex;
+  flex-direction: r;
 }
+
+
+
+
+.flex4 h2 
+{
+  font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2em;
+    line-height: 150%;
+}
+
+
+@media(max-width:900){
+ .flex4 h2 {
+   font-size: 1.5rem;
+    padding-bottom: 0;
+    flex-direction: column;
+ }
+}
+
+
+@media(max-width: 900px){
+.flex4{
+  margin: 0 0 3em;
+  flex-direction: row-reverse;
+}}
+
+
+
+
 
 .flex5 
 {
@@ -311,6 +464,34 @@ margin-right: 40px;
 {
   margin-bottom: 20px;
 }
+
+@media(max-width: 600px){
+.sandimage 
+{
+  width: 30%;
+}
+}
+  
+.sandimage 
+{
+  width: 25%;
+  margin-bottom: 2em;
+}
+
+.sandimage img 
+{
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  line-height: 0;
+  vertical-align: bottom;
+
+}
+
+
+
+
+
 
 
 
