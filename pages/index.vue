@@ -89,7 +89,7 @@
           
 
 
-            <p>Menu</p>
+            <p class="menu">Menu</p>
             <h2>サンドイッチにストーリーを。</h2>
             <p>見た目のワクワク感と、食べた時の満足感、納得感。お客様の感情をサンドイッチで揺さぶりたいと思っています。そんなサンドイッチを作るために、私たちはいつだってストーリーを考えています。</p>
             <p>More→</p>
@@ -147,20 +147,30 @@
             <div class="more0">
             <p>More→</p>
 
-        <ul class="event1">
+      <ul class="event1">
+            
             <div class="eventimage"> </div>
             <h2>Event</h2>
             <p>イベント</p>
             <p class=meta>サンドイッチの作り方教室や試食会など、様々なイベントを企画しています。お楽しみに。</p>
             
-          <div class=event>
-          <div class=event01> </div>
-          <div class=event02> </div>
-          <div class=event03> </div>
-          </div>
+        <div class=event>
 
-        </ul>
-            <p>More→</p>
+          <div class=event01> 
+          <img src="/event01.jpg" width="300px"><p>MY IDEA SANCH 2020<br>～あなたが食べたい夢のサンドイッチを<br>教えてください～　結果発表！！</p></div>
+
+          <div class=event02> 
+          <img src="event02.jpg" width="300px"><p>おでかけSANCH</p></div>
+
+          <div class=event03>
+          <img src="event01.jpg" width="300px">
+          <p>MY IDEA SANCH 2020<br>　～あなたが食べたい夢のサンドイッチを<br>教えてください～　結果発表！！</p></div>
+
+        </div>
+
+      </ul>
+            <br><br><br><br><br><br>
+            <p class="moremore">More→</p>
         
 
             <div class="info">
@@ -182,27 +192,37 @@
            <div class="p">
             <p>・ランチ時11:00～15:00はお電話がつながりにくい場合があります。</p>
             <p>・代金は商品受け取りの際に店頭にてお支払いください。</p>
-            <p>・お会計の際に混みあう場合は順番でご案内となります。</p>
-           ・季節・材料の仕入れ状況によりメニュー変更する場合がございます。</div>
+            <p>・お会計の際に混みあう場合は順番でご案内となります。</p><br><br>
+           ・季節・材料の仕入れ状況によりメニュー変更する場合がございます。<br><br><br></div>
+            
+
+
+          <div class="syosai">
             <hr>
-            お席のご予約<br>
+            <div class="yoyaku">
+            <h3>お席のご予約<br></h3>
             2名様〜(6名様以上は要相談)
             <hr>
-            サンドイッチのお取り置き<br>
+            <h3>サンドイッチのお取り置き</h3><br>
             15個まで  当日11:00までに要予約<br>
-            15個以上  3日前17:00までに要予約
-            <hr>
-            大口注文配達<br>
+            15個以上  3日前17:00までに要予約<hr></div>
+
+            <div class=tyumon>
+            <h3>大口注文配達<br></h3>
             配達条件  3,000円以上<br>
             前日昼までのご予約
             配達料金  無料
-            配達地域  店舗から10km圏内当日11:00までに要予約
+            配達地域  店舗から10km圏内当日11:00までに要予約</div>
             <hr>
-            催事販売のご相談<br>
+            <div class="saiji">
+            <h3>催事販売のご相談</h3><br>
             イベントをご検討中の企業・法人様<br>
             SANCHは数多くの百貨店催事、イベント催事に出店させて頂いております。
             焼きたての食パンでお作りしたこだわりのサンドイッチをイベント会場までお持ちします！！ 当スタッフが販売に伺うできますので、お気軽にご相談くださいませ。
-            <hr>
+            <hr></div>
+
+          </div>
+
           <div class="tennai">
           <img src="syokupan.tennai.jpg">
           <img src="tooster.jpg">
@@ -210,39 +230,48 @@
           <img src="wifi.tennai.jpg">
           </div>
 
-          <img src="map.svg" >
 
-            〒380-0833 長野県長野市権堂町2201 権堂イーストプラザ1F<br>
-            <p>TEL/FAX  026-237-2988<br></p>
+        <div class="flexmap">
+          <img src="map.svg" width="100%" height="auto">
+            
+            <div class="adress">
+            <p>〒380-0833 長野県長野市権堂町2201 権堂イーストプラザ1F<br>
+            TEL/FAX  026-237-2988<br>
             長野電鉄『権堂駅』から田町方面へ、徒歩1分。
             長野グランドシネマズ様隣接の長電権堂パーキングから徒歩すぐ。
-
-           
             <div class="google">
               <a href="https://www.google.com/maps/place/%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%EF%BC%86%E3%83%96%E3%83%AC%E3%83%83%E3%83%89+%E3%82%B5%E3%83%B3%E3%83%81/@36.6535246,138.1923893,15z/data=!4m5!3m4!1s0x0:0xd27998603a8ca5cf!8m2!3d36.6535246!4d138.1923893">Google Mapで見る</a></div>
-            
-            <div class="car">
-            <p>指定駐車場：長電権堂パーキング（587台）</p>
+              指定駐車場：長電権堂パーキング（587台）
 
-            長電権堂パーキングご利用のお客様に、<br>
+            <p>長電権堂パーキングご利用のお客様に、<br>
             駐車料金のサービスを行っております。<br>
             お食事・テイクアウト 1,200円以上お買い上げで1時間無料駐車券<br>
             ※サービス時間を超過した場合の超過料金は現金でお支払いください。
-            </div>
+            </p></div>
+        
+        
+        
+        
+        
+        </div>
 
            
+            
+            
+            
+
+           <div class="naganoeki">
            <img src="nagano.station.png" width="100%">
             <div class="midori">
             <p>SANCH 長野駅ビルMIDORI店</p><small>TAKE OUT ONLY</small>
-            <p>MIDORI長野店１F　Midoriマルシェ内</p></div>
+            <p>MIDORI長野店１F　Midoriマルシェ内</p>
             <div class="google2">
             <a href="https://www.google.com/maps/place/MIDORI+%E9%95%B7%E9%87%8E/@36.6441114,138.1863431,17z/data=!3m1!5s0x601d86928e95f4b7:0x486cece4198ab280!4m5!3m4!1s0x601d8692973fffff:0xacda1a8b7823f1e8!8m2!3d36.6436514!4d138.1887931">Google Mapで見る</a></div>
-            <div class="nagano">
             <p>長野県長野市南千歳1-22-6（長野駅直結）<br>
             営業時間  10:00～20:00
             <p>MIDORI長野限定商品も登場します。<br>
             長野駅ご利用の際は是非お越しください。<br>
-            コッペパンも販売中です。</p></div>
+            コッペパンも販売中です。</p></div></div>
 
             <div class="sns">
             <h2>Facebook</h2>
@@ -392,7 +421,7 @@ padding: 1em 0;
 .post-preview p
 {
 margin-top: 60px;
-margin-bottom:60px;
+
 }
 
 .post html
@@ -446,7 +475,9 @@ div.fruit
   margin: 0 auto;
   width: 90%;
   max-width: 1350px;
+
 }
+
 
 
 .sand1
@@ -496,13 +527,22 @@ position: absolute;
 li
 {
   background-image: url("/fruit.png");
-  background-position-x: 25%;
-  background-size: 300% auto;
+  background-position-x: 35%;
+  background-position-y: 5%;
+  background-size: 250% auto;
   background-repeat: no-repeat;
-  
+  height: auto;
+  z-index: 1;
   
   
 }
+
+
+@media screen and (max-width: 600px){
+.interview {
+    white-space: nowrap;
+    display: block;
+}}
 
 
 
@@ -511,10 +551,11 @@ li
 {
     background-image: url("/ichigogarii.png");
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-size: cover;
-    margin: auto;
+    margin:  auto;
+
     
     
 }
@@ -527,11 +568,12 @@ li
 {
   background-image: url("/budougarii.png");
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-size: cover;
   margin: auto;
   box-sizing: border-box;
+  
 }
 
 .komugi div h2
@@ -539,20 +581,57 @@ li
   background-image: url("/susukii.png");
   border-radius: 50%;
   background-size: cover;
-  width: 100px;
-  height: 100px;
   margin: auto;
+  width: 200px;
+  height: 200px;
+  
 }
 ul.interview
 {
-
   display: flex;
   text-align: center;
   overflow-x: scroll;
-  
-  
-
 }
+
+
+@media(min-width: 500px){
+  .ichigo {
+    width: 33.333%
+  }
+}
+@media(min-width: 500px){
+  .budou {
+    width: 33.333%
+  }
+}
+@media(min-width: 500px){
+  .komugi {
+    width: 33.333%
+  }
+}
+
+
+
+
+
+
+@media(max-width: 900){
+.ichigo div h2
+{
+padding-right: 100px;
+}}
+
+
+
+@media(max-width:900px){
+  .interview
+  {width: 100%;
+  overflow-x: scroll;
+  padding: 0 0vw;
+  }
+}
+
+
 
 .interview
 {
@@ -577,13 +656,9 @@ background-size: cover;
 
 }
 
-@media(max-width: 900px){
-.event
-{
-padding: 0 5vw;
-}
 
-}
+
+
 .event1 h2
 {
 
@@ -617,24 +692,24 @@ div .mail
 
 }
 
+
+
 .ichigo 
 {
-  width: 33.333%;
-  padding-right: 20px;
   
-  
+  padding-right: 20px; 
 }
 
 .budou
 {
-width: 33.333%;
+
 padding-right: 20px;
 
 }
 
 .komugi
 {
-  width: 33.333%;
+  
   padding-right: 20px
 }
 
@@ -655,87 +730,85 @@ padding-right: 20px;
 
 
 
-  @media(max-width: 600px){
+  @media(max-width: 900px){
   .ichigo p {
   display: none;
   }  
   }
 
 
-@media(max-width: 600px){
+@media(max-width: 900px){
   .budou p {
   display: none;
   }  
   }
 
-@media(max-width: 600px){
+@media(max-width: 900px){
   .komugi p {
   display: none;
   }  
   }
 
-div .event01
-{
 
-  background-image: url("/event01.jpg");
-  padding-bottom: 20%;
-  width: 80%;
-  height: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 20px
 
-  
-}
-
-div.event02
-{
-  background-image: url("/event02.jpg");
-  padding-bottom: 20%;
-  width: 80%;
-  height: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 20px
-}
-div .event03 
-{
-background-image: url("/event01.jpg");
-  padding-bottom: 20%;
-  width: 80%;
-  height: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 20px;
-  margin-right: 20px;
-
-}
 ul .event
 {
   display: flex;
-  height: 100%
-
-
+ 
 }
+
+
+
+@media(min-width: 600px){
+.event01{
+width: 33.333%
+}}
+
+@media(min-width: 600px){
+.event02{
+width: 33.333%
+}}
+
+@media(min-width: 600px){
+.event03{
+width: 33.333%
+}}
+
+
+
+
 
 @media(max-width: 900px){
-div.event01 {
-    overflow-x: scroll;
-    
+.event
+{
+padding: 0 5vw;
 }
 }
 
-@media(max-width: 600px){
-div.event02 {
-    overflow-x: scroll;
+@media screen and (max-width: 600px){
+.event{white-space: nowrap;
+    display: block;
 }
 }
 
-@media(max-width: 600px){
-div.event03 {
-    overflow-x: scroll;
+
+.event02 img{
+  margin-left: 20px
 }
+.event03 img{
+margin-left: 20px
 }
+
+
+
+
+
+.moremore 
+{
+  margin-bottom: 100px;
+  
+}
+
 
 div .sns
 {
@@ -798,7 +871,15 @@ ul .interview
 width: 100%;
 overflow-x: scroll;
 padding: 0 5vw;
+
 }
+
+
+@media screen and (max-width: 900px){
+.interview {
+    display: block;
+    
+}}
 
 
 .container{
@@ -842,24 +923,132 @@ text-align: left;
 }
 
 
-.car
-{
-text-align: left;
-padding: 40px;
 
-}
 
 .midori
 {
-text-align: left;
-padding: 40px;
+width: 100%;
 }
 
-.nagano
+
+
+
+.flexmap 
 {
-text-align: left;
-padding: 40px;
+  display: flex;
+  margin: auto;
 }
+
+
+
+@media(max-width: 900px){
+.flexmap{
+    width: 100%;
+    margin-bottom: 2em;
+    flex-direction: column;
+    
+}
+}
+
+@media(max-width:600px){
+.event{
+overflow-y: scroll;
+}}
+
+@media(min-width:400px){
+.event01 {
+width: 100%
+}
+}
+
+@media(min-width:400px){
+.event02 {
+width: 100%
+}
+}
+
+@media(min-width:400px){
+.event03 {
+width: 100%
+}
+}
+
+.naganoeki
+{
+  display: flex;
+  margin: auto;
+}
+
+
+
+
+@media(max-width: 900px){
+.naganoeki{
+    width: 100%;
+    margin-bottom: 2em;
+    flex-direction: column;
+    
+}
+}
+
+@media(min-width: 900px){
+.naganoeki img
+{ width: 50%;
+}}
+
+
+.adress 
+{
+  width: 100%;
+}
+
+
+@media(min-width: 900px){
+.syosai
+{
+  display: flex;
+}}
+
+
+.yoyaku
+{
+  width: 33.333%
+}
+.tyumon
+{
+  width: 33.333%
+}
+
+.saiji
+{
+  width: 33.333%
+}
+
+@media(max-width:900px){
+  .yoyaku{
+width: 100%
+  }
+}
+
+@media(max-width:900px){
+  .tyumon{
+width: 100%
+  }
+}
+
+@media(max-width:900px){
+  .saiji{
+width: 100%
+  }
+}
+
+
+
+
+
+
+
+
 
 
 </style>
