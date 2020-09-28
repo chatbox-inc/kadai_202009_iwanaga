@@ -1,9 +1,22 @@
 <template>
   <div>
     
+     <header class="header">
+      <div class="contents-wrap-l">
+        <div class="header-top">
+          <div class="left">
+            <a href="http://www.sanch-gonda.jp">
+            <img src="http://www.sanch-gondo.jp/cms/wp-content/themes/sanch/img/logo-h.svg" ></a>
+          </div>
+        </div>
+      </div>
+     </header>
 
-   
-      <div class="main"></div>
+
+      <div class="main">
+      <h1>What's<br>
+      SANCH</h1>
+      </div>
       
           
             <div class="page-heading">
@@ -21,6 +34,7 @@
     
           <div class="container">
           <div class="text">
+          <br><br>
           <h1>日本でいちばん美味しい<br>
 サンドイッチを目指して。</h1><br>
           <p>私たちサンチは、丁寧に作り込んだ耳まで柔らかいパンと、信州の恵みを一身に受けたフルーツを使った、 地産地消にこだわるサンドイッチを作り続けています。</p>
@@ -88,8 +102,8 @@
         </div>
           <img src="bottom.jpg" width="100%">
 
-
-          <p>© 2020 SANCH All Rights Reserved.</p>
+        <div class="footer">
+          <p>© 2020 SANCH All Rights Reserved.</p></div>
 
 
 
@@ -116,6 +130,41 @@
 </script>
 
 <style>
+
+@media(max-width: 1100px){
+header .header{
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    background: #FFF;
+}}
+
+.header
+{
+  padding: 1em 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+    background: #FFF;
+}
+
+.head-logo
+{
+  width: 164px;
+  height: 30px;
+}
+
+.left img{
+  width: 120px;
+}
+
   a {
     color: #212529;
     transition: all 0.2s;
@@ -154,6 +203,13 @@
     padding: 50px 0 65px;
     text-align: center;
   }
+
+
+  .main h1{
+    padding-top: 200px;
+  }
+  
+
 
    div .text
    {
@@ -243,7 +299,6 @@ vertical-align: bottom;
    
    line-height: 220%;
    margin-bottom: 2rem;
-   width: 75%;
    padding: 20;
    padding: 0 10%;
     
@@ -394,9 +449,17 @@ display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   
-  
-  
 }
+
+
+@media(max-width: 900px){
+  .main{
+    height: 60vw;
+    min-height: 0;
+  }
+}
+
+
 
 .flex1 
 {
@@ -489,10 +552,20 @@ display: flex;
 }
 
 
+.main h1 
+{
+  color: #ffffff;
+  text-align: center;
+}
 
 
+.footer
+{
+  text-align: center;
+}
 
-
-
+.main h1{
+  height: auto;
+}
 
 </style>
